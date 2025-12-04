@@ -1,123 +1,144 @@
-Accès aux données et ressources eMOB
-Ressources accessibles
-1. Drive UCA — Bibliothèque eMOB‑data
-→ Acquisition_jan22_Montluçon
+# Accès aux données et ressources eMOB
 
-    CapteurBergeret (CSV)
-        → Didier
-        → Jean‑Marie
-        → Corinne
-        → Emmanuel
-        → Anthony
-        → Ala
-        → Alexis
-        → Francis
-        → Alexis_2
-        → Cédric
-        → Bastien
-        → Didier_2
-        → Corinne_2
+## Ressources accessibles
 
-    Étiquettes
-        → méthode d'étiquetage
+### 1. Drive UCA — Bibliothèque eMOB‑data
 
-    LIPC_Dataset
-        → Qualisys_3D_Videos
-        → RGB_videos
-        → CSV participants
+#### Acquisition_jan22_Montluçon
 
-    Qualisys
-        → raw_data (.tsv)
-        → vidéos
+**CapteurBergeret (CSV)**
+- Didier
+- Jean‑Marie
+- Corinne
+- Emmanuel
+- Anthony
+- Ala
+- Alexis
+- Francis
+- Alexis_2
+- Cédric
+- Bastien
+- Didier_2
+- Corinne_2
 
-    resultats_csv
-        → fichiers CSV et TXT
+**Étiquettes**
+- Méthode d'étiquetage
 
-    test_etiquetage_bras
-        → scripts .py
+**LIPC_Dataset**
+- Qualisys_3D_Videos
+- RGB_videos
+- CSV participants
 
-    UKK
+**Qualisys**
+- raw_data (.tsv)
+- vidéos
 
-    vidéos_3D_Qualisys
-        → exemple : patient1_26jan20 (1).mp4
+**resultats_csv**
+- Fichiers CSV et TXT
 
-→ Acquisition_mai21_Montluçon (31 mai – 1 juin)
+**test_etiquetage_bras**
+- Scripts .py
 
-    CapteurBergeret_31mai21
-    CapteurFavreau_31mai21
-    CapteurFavreau_31mai21_complet
-    Capteurs_Bergeret_31mai21_complet
-    data_qualisys
-    fichier_tags_revision2022
-    resultats_2022
-    videos_etiquetees_corrigees
-    Vidéos
-    Vidéos étiquetées
-        → Axel
-        → Issam
-        → Jean‑Marie
-        → Quentin
-        → Saut corrigé
-    acquisition_31mai21.ods
-    qualite_donnes_31mai1juin.ods
+**UKK**
 
-→ Mouvements élémentaires
+**vidéos_3D_Qualisys**
+- Exemple : patient1_26jan20 (1).mp4
 
-    RUN_mouvements_elementaires_1
-    RUN_mouvements_elementaires_2
+---
 
-→ Dataset public UTD‑MHAD
+#### Acquisition_mai21_Montluçon (31 mai – 1 juin)
 
-    Depth.zip
-    Inertial.zip
-    RGB.zip
-    Sample_Code.zip
-    Skeleton.zip
+- CapteurBergeret_31mai21
+- CapteurFavreau_31mai21
+- CapteurFavreau_31mai21_complet
+- Capteurs_Bergeret_31mai21_complet
+- data_qualisys
+- fichier_tags_revision2022
+- resultats_2022
+- videos_etiquetees_corrigees
+- Vidéos
 
-→ Scripts (utils)
+**Vidéos étiquetées**
+- Axel
+- Issam
+- Jean‑Marie
+- Quentin
+- Saut corrigé
 
-    consolidate-taxonomy.py
-    generate_srt.sh
-    tags2srt.py
+**Fichiers**
+- acquisition_31mai21.ods
+- qualite_donnes_31mai1juin.ods
 
-→ Tuto
+---
 
-    tutoriels vidéos (Tofu)
+#### Mouvements élémentaires
 
-→ UKK
+- RUN_mouvements_elementaires_1
+- RUN_mouvements_elementaires_2
 
-    données capteurs UKK
+---
 
-→ WANG (travaux Jingyao Wang)
+#### Dataset public UTD‑MHAD
 
-    data
-    EfficientGCN
-    EfficientGCN_new
-    output
-    output_100epochs_selective
-    ST‑TR
-    transfer
-    config.xlsx
-    Classeur1.xlsx
-    Data qualisys.pptx
-    tem.jpg
+- Depth.zip
+- Inertial.zip
+- RGB.zip
+- Sample_Code.zip
+- Skeleton.zip
 
-2. Forge GitLab (limos.fr)
+---
 
-Projets accessibles :
+#### Scripts (utils)
 
-    → app E‑santé
-    → esante‑labelling
-    → RM42 log parser
-    → esante_presentations
-    → tofu_video_labeller
-    → autres codes internes
+- `consolidate-taxonomy.py`
+- `generate_srt.sh`
+- `tags2srt.py`
 
-3. VM emob-data.limos.fr
+---
 
-Structure :
+#### Tuto
 
-text
+- Tutoriels vidéos (Tofu)
+
+---
+
+#### UKK
+
+- Données capteurs UKK
+
+---
+
+#### WANG (travaux Jingyao Wang)
+
+- data
+- EfficientGCN
+- EfficientGCN_new
+- output
+- output_100epochs_selective
+- ST‑TR
+- transfer
+- config.xlsx
+- Classeur1.xlsx
+- Data qualisys.pptx
+- tem.jpg
+
+---
+
+### 2. Forge GitLab (limos.fr)
+
+**Projets accessibles :**
+- app E‑santé
+- esante‑labelling
+- RM42 log parser
+- esante_presentations
+- tofu_video_labeller
+- autres codes internes
+
+---
+
+### 3. VM emob-data.limos.fr
+
+**Structure :**
 
 /
 ├── capture_2021-05-31/
@@ -127,39 +148,50 @@ text
 ├── README.md
 └── etiquetage.ods
 
-Données disponibles :
+text
 
-    → vidéos
-    → CSV mouvement
-    → accélérométries
-    → mouvements élémentaires
-    → vie quotidienne
 
-Ressources non accessibles (ou en attente d'activation)
-→ VM CHU (accès SSH requis)
+**Données disponibles :**
+- Vidéos
+- CSV mouvement
+- Accélérométries
+- Mouvements élémentaires
+- Vie quotidienne
 
-    données capteurs réels (binaire)
-    vidéos associées
-    dépôt automatique par le CHU
-    ⚠️ accès seulement après création de compte
+---
 
-→ emob‑analyzer
+## Ressources non accessibles (ou en attente d'activation)
 
-    nécessite un compte
-    permet de visualiser les données CHU déchiffrées (graphiques)
+### VM CHU (accès SSH requis)
 
-Résumé : où trouver quoi ?
-✅ Données accessibles
-Source	Contenu
-Drive UCA	→ toutes acquisitions, Qualisys, RUN, UKK, WANG, UTD‑MHAD
-VM emob-data.limos.fr	→ captures 2021/2022 + mouvements élémentaires
-✅ Outils accessibles
+- Données capteurs réels (binaire)
+- Vidéos associées
+- Dépôt automatique par le CHU
+- ⚠️ Accès seulement après création de compte
 
-    → scripts (utils)
-    → GitLab limos (labellers, parsers, apps)
-    → modèles & code (EfficientGCN, ST‑TR…) via dossier WANG
+### emob‑analyzer
 
-❌ Données nécessitant accès
+- Nécessite un compte
+- Permet de visualiser les données CHU déchiffrées (graphiques)
 
-    → VM CHU
-    → emob‑analyzer
+---
+
+## Résumé : où trouver quoi ?
+
+### ✅ Données accessibles
+
+| Source | Contenu |
+|--------|---------|
+| Drive UCA | Toutes acquisitions, Qualisys, RUN, UKK, WANG, UTD‑MHAD |
+| VM emob-data.limos.fr | Captures 2021/2022 + mouvements élémentaires |
+
+### ✅ Outils accessibles
+
+- Scripts (utils)
+- GitLab limos (labellers, parsers, apps)
+- Modèles & code (EfficientGCN, ST‑TR…) via dossier WANG
+
+### ❌ Données nécessitant accès
+
+- VM CHU
+- emob‑analyzer
