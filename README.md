@@ -195,3 +195,40 @@ text
 
 - VM CHU
 - emob‑analyzer
+  
+📚 Ressources du projet eMOB-data
+📦 1. Bibliothèque eMOB-data (Drive UCA)
+
+Accès aux données eMOB-data, organisées et stockées par l’UCA.
+Contient les jeux de données chiffrés/déchiffrés, documents associés, et ressources internes.
+
+🔗 https://drive.uca.fr/library/a178de81-7314-42c6-92f1-8b243b017e67/eMOB-data/
+🧰 2. Forge GitLab Limos
+
+Plateforme GitLab interne du LIMOS contenant le code, les projets logiciels et les outils utilisés dans eMOB-data.
+
+🔗 https://gitlab.limos.fr
+Projets du groupe e-Santé Mobilité
+
+Regroupe les dépôts liés aux travaux du groupe : analyse des données, outils, modèles, etc.
+
+🔗 https://gitlab.limos.fr/groups/esante-mobilite
+🖥️ 3. Machine Virtuelle eMOB-data
+
+VM permettant d'accéder à l’environnement complet eMOB-data : outils d’analyse, scripts, processing, accès aux données sécurisées.
+
+🔗 https://emob-data.limos.fr/
+📊 4. eMOB-Analyzer
+
+Application web permettant de visualiser les données déchiffrées, sous forme de courbes, graphiques et streams temporels.
+Très utile pour l’analyse initiale, la vérification et la compréhension des signaux collectés.
+
+🔗 https://emob-analyzer.limos.fr/
+🏷️ 5. Outil d’étiquetage manuel des données (Tofu)
+
+Pour ajouter ou corriger manuellement les annotations des vidéos et capteurs.
+Permet un étiquetage précis pour entraîner les modèles de Machine Learning.
+
+Installer Tofu depuis le dépôt GitLab :
+
+🔗 https://gitlab.limos.fr/esante-mobilite/tofu_video_labeller
